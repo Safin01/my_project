@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.nav ul{
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    justify-content: end;
+    /* background-color: #1f2937; */
+    background-color: black;
+    border-bottom: 2px solid rgb(207, 12, 12);
+    flex: auto;
+    flex-wrap: wrap;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(207, 12, 12);
+    font-size: large;
+}
+
+#logo{
+    margin-right: auto; 
+}
+
+.home{
+    display: flex;
+    /* background-color: #1f2937; */
+    background-color: black;
+    padding: 80px;
+    border-bottom: 2px solid red;
+    flex: auto;
+}
+
+.brief p{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    flex: auto;
+}
+
+.description-brief p{
+    font-size: 20px;
+    color: rgb(207, 12, 12);
+    align-self: flex-start;
+    flex: auto;
+}
+
+#image{
+    align-self: center;
+    margin-left: auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 70, 70);
+    height: 400px;
+    border-bottom: 2px solid white;
+    flex: auto;
+}
+
+#intro{
+    text-align: center;
+    color: white;
+    flex: auto;
+}
+
+.hamburgers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 100px; */
+    padding: 100px;
+    flex: auto;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+
+.information > div{
+    flex: 1;
+}
+
+.info{
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    flex: auto;
+}
+
+#code{
+    font-size: 70px;
+    align-self: center;
+    flex: auto;
+}
+#calc{
+    font-size: 70px;
+    align-self: center;
+    flex: auto;
+}
+#code{
+    font-size: 70px;
+    align-self: center;
+    flex: auto;
+}
+#book{
+    font-size: 70px;
+    align-self: center;
+    flex: auto;
+}
+#friends{
+    font-size: 70px;
+    align-self: center;
+    flex: auto;
+}
+
+
+.quote{
+    background-color: rgba(58, 72, 75, 0.658);
+    color: white;
+    padding: 200px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: auto;
+}
+
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/black-bg.jpg);
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid red ;
+    border-left: 2px solid red ;
+    border-right: 2px solid red ;
+    border-top: 2px solid rgb(255, 255, 255) ;
+    flex: auto;
+}
+
+.know-me{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.know-me h2{
+    color: rgba(255, 254, 254, 0.918);
+    font-size: 35px;
+    flex: auto;
+}
+
+.know-me ul{
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+    flex: auto;
+}
+.know-me ul li{
+    color: indigo;
+    list-style-type: none;
+    flex: auto;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: red;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    flex: auto;
+}
+
+footer{
+    font-size: 20px;
+    flex: auto;
+}
+
